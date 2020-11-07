@@ -1,7 +1,7 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Advanced Search</title>
+    <title>Home Page Search</title>
     <style>
         table {
             border-collapse: separate;
@@ -25,7 +25,7 @@
         }
 
         #txt_in_id {
-            height: 40px;
+            height: 30px;
             width: 380px;
             font-size: 14pt;
             text-indent: 15px;
@@ -33,7 +33,7 @@
 
         #slct_id {
             margin-top: 25px;
-            height: 30px;
+            height: 40px;
             width: 190px;
             font-size: 12pt;
         }
@@ -49,21 +49,18 @@
 <body>
     <table>
         <tr>
-            <th><a href="Home_Page.html">Home Page</a></th>
             <th><a href="image_search.html">Image Search</a></th>
+            <th><a href="advanced_search.html">Advanced Search</a></th>
         </tr>
     </table>
 
-    <#form action="https://google.com/search?">
-        <#div class="center">
-            <#input id="txt_in_id" type="text" name="q" placeholder="Search or type a URL" style="border-radius: 25px">
-            <#input id="slct_id" type="submit" value="Advanced Search" style="border-radius: 25px">
-        </#div>
-    </#form>
+    <form action="https://google.com/search?">
+        <div class="center">
+            <input id="txt_in_id" type="text" name="q" placeholder="Search or type a URL" style="border-radius: 25px">
+            <input id="slct_id" type="submit" value="Search" style="border-radius: 25px">
+        </div>
+    </form>
 
-    <table2>
-
-    </table2>
 
 </body>
 </html>
